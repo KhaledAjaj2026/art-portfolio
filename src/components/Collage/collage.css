@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#collage {
+  background-color: #ffcae9;
+  display: flex;
+  margin: 3rem 8rem;
+}
+
+.images {
+  display: grid;
+  grid-column: 3;
+  justify-content: center;
+}
+
+#illust {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}
+
+.img_tiger {
+  width: 300px;
+  height: 300px;
+}/*# sourceMappingURL=collage.css.map */
