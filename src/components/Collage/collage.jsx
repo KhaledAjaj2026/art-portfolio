@@ -20,21 +20,21 @@ function Collage() {
     return (
         <div id="collage">
             <div className="images">
-                <img id="illust" class="img_" src={tiger} alt="illustration of tiger head." />
-                <img id="illust" class="img_" src={corvis} alt="" />
-                <img id="illust" class="img_" src={heavy} alt="" />
-                <img id="illust" class="img_" src={hunter} alt="" />
-                <img id="illust" class="img_" src={indiaman} alt="" />
-                <img id="illust" class="img_" src={self} alt="" />
-                <img id="illust" class="img_" src={spartan} alt="" />
-                <img id="illust" class="img_" src={roman} alt="" />
-                <img id="illust" class="img_" src={ari} alt="" />
-                <img id="illust" class="img_" src={axeman} alt="" />
-                <img id="illust" class="img_" src={doom} alt="" />
-                <img id="illust" class="img_" src={kale} alt="" />
-                <img id="illust" class="img_" src={murin} alt="" />
-                <img id="illust" class="img_" src={rage} alt="" />
-                <img id="illust" class="img_" src={tako} alt="" />
+                <img class="img_" id="tiger" src={tiger} alt="illustration of tiger head." />
+                <img class="img_" id="corvis" src={corvis} alt="" />
+                <img class="img_" id="heavy" src={heavy} alt="" />
+                <img class="img_" id="hunter" src={hunter} alt="" />
+                <img class="img_" id="indiaman" src={indiaman} alt="" />
+                <img class="img_" id="self" src={self} alt="" />
+                <img class="img_" id="spartan" src={spartan} alt="" />
+                <img class="img_" id="roman" src={roman} alt="" />
+                <img class="img_" id="ari" src={ari} alt="" />
+                <img class="img_" id="axeman" src={axeman} alt="" />
+                <img class="img_" id="doom" src={doom} alt="" />
+                <img class="img_" id="kale" src={kale} alt="" />
+                <img class="img_" id="murin" src={murin} alt="" />
+                <img class="img_" id="rage" src={rage} alt="" />
+                <img class="img_" id="tako" src={tako} alt="" />
             </div>
         </div>
     )
