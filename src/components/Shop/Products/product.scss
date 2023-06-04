@@ -1,0 +1,28 @@
+@use '../../../index.scss';
+
+#product {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        text-align: start;
+        font-size: 1rem;
+    }
+    
+}
+#info {
+    background-color: index.$tea-green;
+}
+.product-image {
+    border: 8px ridge index.$mindaro;
+    width: 300px;
+    height: 300px;
+}
+.product-description {
+    text-align: left;
+}
+#product-roman {
+    width: 570px;
+    height: 300px;
+}

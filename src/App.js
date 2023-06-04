@@ -1,15 +1,23 @@
-import Collage from './components/Collage/collage';
-import NavBar from './components/NavBar/nav-bar';
-import Hero from './components/Hero/hero';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './layout';
+import Home from './components/Home/home';
+import Shop from './components/Shop/shop';
+import About from './components/About/about';
+import './App.scss';
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Hero />
-      <Collage />
-    </div>
+    <>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/about" element={<About />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 
